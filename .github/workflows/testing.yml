@@ -47,10 +47,9 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: coverage
-          path: .coverage
       - name: "Generate coverage xml report"
         run: coverage xml
-      - name: "Upload coverage artefact"
+      - name: "Upload coverage artifact"
         uses: actions/upload-artifact@v2
         with:
           name: coverage.xml
