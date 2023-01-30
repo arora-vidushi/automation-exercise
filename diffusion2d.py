@@ -145,7 +145,7 @@ def main():
         u0 = u.copy()
 
     # Plot output figures
-    output_figure(fig, im)
+    #output_figure(fig, im)
 
 
 if __name__ == "__main__":
